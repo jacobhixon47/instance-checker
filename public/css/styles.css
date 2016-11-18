@@ -1,0 +1,52 @@
+body {
+  background-color: #000;
+  color: #888;
+  font-family: monospace;
+}
+
+.jumbotron {
+  background-image: url("../img/space-1.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  color: #bbb;
+}
+
+#heading h1, #heading p {
+  background-color: #000;
+  border: 2px #888 solid;
+  color: #888;
+}
+
+input[type='text'], textarea {
+  background-color: #000;
+  border: 2px #888 solid;
+  color: #888;
+  padding: 4%;
+  margin-bottom: 2%;
+  font-size: 150%;
+}
+
+.btn-default {
+  background-color: #888;
+  color: #000;
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 150%;
+}
+
+.btn-default:hover {
+  background-color: #000;
+  border: 2px #888 solid;
+  color: #888;
+}
+
+#results h1, #results h2 {
+  background-color: #000;
+  border: 2px #888 solid;
+  color: #888;
+  padding: 5%;
+}
