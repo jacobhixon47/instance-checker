@@ -8,6 +8,9 @@
 
 _Type in a sentence, then type in a word to check for instances of inside the aforementioned sentence_
 
+## Setup
+* _visit https://cryptic-bayou-11561.herokuapp.com_
+
 ## Specifications
 
 1. _Checks string for instances of a word_
