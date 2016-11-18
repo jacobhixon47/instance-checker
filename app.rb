@@ -10,7 +10,7 @@ end
 
 get('/instances_result') do
   @string = params.fetch('string')
-  @word = params.fetch('word')
+  @word = params.fetch('word').downcase
   @results = @string.instance_check(@word)
   erb(:results)
 end
