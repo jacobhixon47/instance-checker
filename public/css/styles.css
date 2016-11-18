@@ -18,6 +18,7 @@ body {
   background-color: #000;
   border: 2px #888 solid;
   color: #888;
+  border-radius: 5px;
 }
 
 input[type='text'], textarea {
@@ -32,6 +33,7 @@ input[type='text'], textarea {
 .btn-default {
   background-color: #888;
   color: #000;
+  border: none;
   width: 100%;
   padding-top: 3%;
   padding-bottom: 3%;
@@ -49,4 +51,5 @@ input[type='text'], textarea {
   border: 2px #888 solid;
   color: #888;
   padding: 5%;
+  border-radius: 5px;
 }
